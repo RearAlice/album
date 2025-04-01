@@ -3,25 +3,29 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="ja">
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="Cian Meeting 1st Anniversary"
           />
           <meta property="og:site_name" content="nextjsconf-pics.vercel.app" />
           <meta
             property="og:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="Cian Meeting 1st Anniversary"
           />
-          <meta property="og:title" content="Next.js Conf 2022 Pictures" />
+          <meta property="og:title" content="Cian Meeting 1st Anniversary Album" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Next.js Conf 2022 Pictures" />
+          <meta name="twitter:title" content="Cian Meeting 1st Anniversary Album" />
           <meta
             name="twitter:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="Cian Meeting 1st Anniversary"
           />
+          <meta name="twitter:site" content="@cianmeetings" />
+          <meta name="twitter:creator" content="@cianmeetings" />
+
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         </Head>
         <body className="bg-black antialiased">
           <Main />
